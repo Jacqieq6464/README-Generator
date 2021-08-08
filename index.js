@@ -85,7 +85,7 @@ const questions = () =>
       ${badge}
       ${data.description}
       ## Table of Contents:
-      * [Installation](#installation)
+      * [Installation](#installation)`
    }
 
 
