@@ -1,5 +1,5 @@
 {
-  "name": "inquirer",
+  "name": "readme",
   "version": "1.0.0",
   "description": "Creating a README generator to enable me to quickly create a professional README document for a new project",
   "main": "index.js",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Jacqieq6464/README-Generator/issues"
   },
-  "homepage": "https://github.com/Jacqieq6464/README-Generator#readme"
+  "homepage": "https://github.com/Jacqieq6464/README-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  }
 }
