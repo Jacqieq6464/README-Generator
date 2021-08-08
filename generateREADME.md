@@ -11,18 +11,18 @@ undefined
       
    ### Installation:
    To install the required dependencies, open the console and run the following command line instructions:
-   j
+   run node index.js in the console
 
    ### License:
    This project is licensed under:
    MIT
 
    ### Contributions:
-   j
+   
 
    Feel free to make contributions to this project.
 
    ### Questions:
-   If you have any questions, contact me on [GitHub](https://github.com/j) or contact j at j
+   If you have any questions, contact me on [GitHub](https://github.com/Jacqieq6464) or contact Jacqie Williamson at jacqieq@me.com
 
     
