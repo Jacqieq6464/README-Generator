@@ -134,10 +134,24 @@ const questions = () =>
       
       ### Installation:
       To install the required dependencies, open the console and run the following command line instructions:
+      ${data.installation}
 
+      ### License:
+      This project is licensed under:
+      ${data.license}
+
+      ### Contributions:
+      ${data.contribution}
+
+      ### Questions:
+      If you have any questions, contact me on [GitHub](https://github.com/${data.username}) or contact ${data.author} at ${data.email}
       `
    }
 
+   questions()
+   .then((data) => writeFileAsync('generateREADME.md',generateMD(data)))
+   .then(() => console.log('you have successfully written to README.md '))
+   .catch((err) => console.console.error(err));
 
 
 
