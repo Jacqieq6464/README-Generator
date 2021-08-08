@@ -57,8 +57,48 @@ const questions = () =>
       {
          type: "input",
          name: "Installation",
-         message: "In terminal or bash, using the command line, use the following commands to instal the dependencies required for this file"
-         //give user a list of instructions to instal package.json & lock.json
+         message: "In the terminal or bash console, using the command line, use the following commands to install the dependencies required for this file"
+         //give user a list of instructions to install package.json & lock.json
+
+      },
+
+      {
+         type: "input",
+         name: "Installation",
+         message: "Switch your terminal to node by typing in 'node'"
+         //give user a list of instructions to install package.json & lock.json
+
+      },
+      
+      {
+         type: "input",
+         name: "Installation",
+         message: "Type ‘npm init’ to download the package.json file"
+         //give user a list of instructions to install package.json & lock.json
+
+      },
+
+      {
+         type: "input",
+         name: "Installation",
+         message: "Type 'npm install’ to install all of the node dependencies required for this index.js file. It will also create the package.json-locked file."
+         //give user a list of instructions to install package.json & lock.json
+
+      },
+
+      {
+         type: "input",
+         name: "Installation",
+         message: "Switch your terminal or bash console to node by typing in the word ‘node’."
+         //give user a list of instructions to install package.json & lock.json
+
+      },
+
+      {
+         type: "input",
+            name: "Installation",
+         message: "Then type ‘node index.js’. This will start the process for completing your README.md document."
+         //give user a list of instructions to install package.json & lock.json
 
       },
 
@@ -85,7 +125,17 @@ const questions = () =>
       ${badge}
       ${data.description}
       ## Table of Contents:
-      * [Installation](#installation)`
+      * [Installation](#installation)
+      * [Usage](#usage)
+      * [License](#license)
+      * [Contributions](#contributions)
+      * [Tests](#tests)
+      * [Questions](#questions)
+      
+      ### Installation:
+      To install the required dependencies, open the console and run the following command line instructions:
+
+      `
    }
 
 
